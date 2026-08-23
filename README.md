@@ -1,8 +1,27 @@
 # Wavelength-Guided-Adaptive-Learning-for-Dynamic-Scene-Computational-Spectral-Imaging
 
-Training and evaluation code for wavelength-guided adaptive learning and
-reconstruction (WALAR). TASSIR-Net takes an encoded measurement and a target
-wavelength as input and reconstructs the corresponding single-band image.
+Authors: **Xinyu Liu** and **[Liangcai Cao](https://scholar.google.com/citations?user=FYYb_-wAAAAJ&hl=en)**
+
+Affiliation: *[HoloLab](http://www.holoddd.com/), State Key Laboratory of
+Precision Measurement Technology and Instruments, Department of Precision
+Instrument, Tsinghua University, Beijing, China*
+
+## Introduction
+
+Wavelength-guided adaptive learning and reconstruction (WALAR) is developed for
+computational spectral imaging of dynamic scenes. It uses synchronized
+Bayer-encoded measurements and wavelength-specific target-band images to build
+real training pairs without requiring a scanned spectral datacube at each time
+point.
+
+TASSIR-Net learns a shared wavelength-conditioned reconstruction model. Given an
+encoded measurement and a target wavelength, it predicts the corresponding
+single-band image; querying the same measurement at the calibrated wavelengths
+and stacking the predictions produces a complete spectral datacube.
+
+This repository contains the PyTorch model, LMDB data conversion and loading
+code, and the scripts used for training, validation, and held-out test
+evaluation.
 
 ## Files
 
