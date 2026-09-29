@@ -1,4 +1,4 @@
-# Wavelength-Guided-Adaptive-Learning-for-Dynamic-Scene-Computational-Spectral-Imaging
+# Wavelength-Guided-Adaptive-Learning-for-Computational-Spectral-Imaging
 
 Authors: **Xinyu Liu** and **[Liangcai Cao](https://scholar.google.com/citations?user=FYYb_-wAAAAJ&hl=en)**
 
